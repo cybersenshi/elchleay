@@ -1,0 +1,61 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300");
+body {
+  background-color: whitesmoke; }
+
+a {
+  color: #fc671a; }
+
+header {
+  text-align: center; }
+
+h1, h2, h3 {
+  margin: 0; }
+
+h2, h3, nav {
+  color: #fc671a;
+  font-family: "Open Sans Condensed", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px; }
+
+h3 {
+  max-width: 100%;
+  font-size: 1.25rem;
+  border-bottom: 1px solid #fc671a; }
+
+nav {
+  background-color: transparent;
+  box-shadow: none; }
+
+nav ul a {
+  color: #6a737b;
+  text-decoration: none; }
+
+nav ul a:hover {
+  color: #fc671a; }
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none; }
+
+.hero img {
+  max-width: 100%;
+  margin-bottom: 1em; }
+
+.wrapper {
+  margin-left: 2em;
+  margin-right: 2em;
+  display: grid;
+  grid-template-columns: 200px auto 200px;
+  grid-gap: 1em;
+  align-items: top center; }
+
+.box {
+  padding: 20px;
+  border: 2px solid lightgrey; }
+
+hr {
+  border-top: 1px dotted #6a737b; }
+
+/*# sourceMappingURL=style.css.map */
